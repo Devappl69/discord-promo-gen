@@ -14,8 +14,15 @@
 - Run the desired generator with the desired configurations
 - The result will be added to the _nitro-promo-codes.txt_ text file
 
-## Disclaimer and License
+## Limitations
+Sadly (depending on how you look at it), rate limits are a thing, so you won’t be able to endlessly generate codes however fast you want. Maybe in future versions I might add a generator that uses proxies or figure out how to use the “retry_after” value to overcome this roadblock, but for now you will have to settle with this.
 
+__Rate limits:__
+- 10k requests every 10 minutes
+- 50 requests per second
+- Up to 1 hour of blocked requests when being rate limited
+
+## Disclaimer and License
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
